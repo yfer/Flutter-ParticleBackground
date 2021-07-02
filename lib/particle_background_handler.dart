@@ -24,7 +24,7 @@ class ParticleBackgroundHandler extends ParticleHandler {
       p.lifeLeft = p.lifeLeft - 1;
 //      p.lifeLeft = _getDistanceFromTop(p);
 
-      print(p.lifeLeft);
+      // print(p.lifeLeft);
       // Gradually reduce the size of all particles.
       if (p.lifeLeft < 400) {
         p.size -= p.size * .0035;
